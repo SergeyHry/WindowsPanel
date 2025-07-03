@@ -1,0 +1,52 @@
+
+.root {
+    -fx-background-image: url("file:/C:/Users/Student/Desktop/win10.jpg");
+   
+	-fx-background-size: cover;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-padding: 10;
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.leeren {
+	-fx-background-color: transparent;
+	-fx-background-image: url("Trash.gif");
+
+
+			-fx-background-size: 65.0 65.0;
+
+			-fx-background-repeat: no-repeat;
+
+			-fx-background-position: center;
+	}
+.button {
+    -fx-background-color: linear-gradient(to  left, #0e100d, #213a66);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+
+    -fx-cursor: hand;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    
+}
+
+	
+
+.button:hover {
+    -fx-background-color: #184a78;
+}
+
+.text-area {
+    -fx-background-radius: 2;
+    -fx-border-radius: 5;
+    -fx-border-color: white;
+    -fx-padding: 3;
+    -fx-font-size: 16px;
+}
+
