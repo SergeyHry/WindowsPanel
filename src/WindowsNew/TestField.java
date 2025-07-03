@@ -71,8 +71,8 @@ public class TestField extends Application {
 		
 		 Image img = new Image("file:///C:/Users/Student/Downloads/Trash.gif");
 	      ImageView view = new ImageView(img);
-	      view.setFitWidth(20);   // z.B. 16 Pixel Breite
-	      view.setFitHeight(20);
+	      view.setFitWidth(100);   
+	      view.setFitHeight(80);
 	      leeren.setGraphic(view);
 	      
 		leeren.setPrefWidth(200);
